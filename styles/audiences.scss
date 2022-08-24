@@ -4,6 +4,20 @@
   display: flex;
   flex-direction: column;
 
+  @include for-large-up {
+    padding: 0;
+    padding-top: 108px;
+    padding-bottom: 110px;
+  }
+  &__description {
+    @include for-large-up {
+      display: flex;
+      flex-direction: column;
+      width: 555px;
+      margin: auto;
+    }
+  }
+
   &__subtitle {
     font-weight: 700;
     font-size: 22px;
@@ -19,6 +33,14 @@
     letter-spacing: -0.35px;
     margin: 0;
     margin-top: 17px;
+
+    @include for-large-up {
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -0.5px;
+      margin: 0;
+      margin-top: 24px;
+    }
   }
 
   &__text {
@@ -27,6 +49,11 @@
     text-align: center;
     margin: 0;
     margin-top: 18px;
+
+    @include for-large-up {
+      margin: 0;
+      margin-top: 30px;
+    }
   }
 
   &__action-btn {
@@ -36,6 +63,17 @@
     border-radius: 2px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
       inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+
+    @include for-large-up {
+      width: 160px;
+      margin: 0;
+    }
+  }
+
+  &__btn {
+    display: flex;
+    margin: auto;
+    margin-top: 34px;
   }
 
   &__learn-more-btn {
@@ -49,14 +87,25 @@
     line-height: 13px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
       inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+
+    @include for-large-up {
+      width: 158px;
+      margin: 0;
+      margin-left: 10px;
+    }
   }
 
   &__decoration {
     display: flex;
     flex-direction: column;
     margin-top: 40px;
-  }
 
+    @include for-large-up {
+      flex-direction: row;
+      margin-top: 0;
+      margin: 111px 131px 0 130px;
+    }
+  }
   &__decoration_item {
     background-color: white;
     border-radius: 8px;
@@ -66,6 +115,12 @@
     margin-top: 15px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
       inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+
+    @include for-large-up {
+      width: 262px;
+      margin: 0;
+      margin-right: 30px;
+    }
   }
   &__decoration_item:nth-child(2):hover {
     background-color: $background-color-blue;
