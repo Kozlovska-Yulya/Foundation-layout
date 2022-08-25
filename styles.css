@@ -833,21 +833,16 @@
 }
 @media screen and (min-width: 1400px) {
   .audience__btn {
+    margin: 0;
     display: flex;
-    margin: auto;
     margin-top: 34px;
+    justify-content: center;
   }
 }
 .audience__action-btn {
-  width: 100%;
   padding: 0;
   line-height: 13px;
-}
-@media screen and (min-width: 1400px) {
-  .audience__action-btn {
-    width: 160px;
-    margin: 0;
-  }
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 .audience__learn-more-btn {
   margin-top: 12px;
@@ -858,9 +853,9 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 13px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 2px;
   padding: 0;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 @media screen and (min-width: 1400px) {
   .audience__learn-more-btn {
@@ -875,8 +870,9 @@
 @media screen and (min-width: 1400px) {
   .audience__decoration {
     display: flex;
-    margin-top: 0;
-    margin: 111px 131px 0 130px;
+    justify-content: center;
+    margin: 0;
+    margin-top: 111px;
   }
 }
 .audience__decoration_item {
@@ -893,16 +889,11 @@
   .audience__decoration_item {
     width: 262px;
     margin: 0;
-    margin-right: 30px;
+    margin-left: 30px;
   }
 }
 .audience__decoration_item:nth-child(1) {
   margin: 0;
-}
-@media screen and (min-width: 1400px) {
-  .audience__decoration_item:nth-child(1) {
-    margin-right: 30px;
-  }
 }
 .audience__decoration_item:nth-child(2):hover {
   background-color: #3141c5;
