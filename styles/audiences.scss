@@ -124,11 +124,17 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
       inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 
-    // сверху не тот отступ у первого элемента
-
     @include for-large-up {
       width: 262px;
       margin: 0;
+      margin-right: 30px;
+    }
+  }
+
+  &__decoration_item:nth-child(1) {
+    margin: 0;
+
+    @include for-large-up {
       margin-right: 30px;
     }
   }
