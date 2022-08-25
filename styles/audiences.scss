@@ -9,6 +9,7 @@
     padding-top: 108px;
     padding-bottom: 110px;
   }
+
   &__description {
     display: flex;
     flex-direction: column;
@@ -68,6 +69,7 @@
   }
 
   &__action-btn {
+    padding: 0;
     line-height: 13px;
     width: 100%;
     border-radius: 2px;
@@ -81,6 +83,7 @@
   }
 
   &__learn-more-btn {
+    padding: 0;
     width: 100%;
     background-color: $color-white;
     margin-top: 12px;
@@ -121,6 +124,8 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
       inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 
+    // сверху не тот отступ у первого элемента
+
     @include for-large-up {
       width: 262px;
       margin: 0;
@@ -134,6 +139,7 @@
   }
 
   &__image {
+    display: flex;
     justify-content: center;
     margin: 22px 76px;
   }
