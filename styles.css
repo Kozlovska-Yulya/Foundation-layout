@@ -689,10 +689,10 @@
 }
 .order__details {
   width: 100%;
-  margin-top: 40px;
 }
 @media screen and (min-width: 1400px) {
   .order__details {
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -721,7 +721,6 @@
 }
 @media screen and (min-width: 1400px) {
   .order__text {
-    margin: 0;
     margin-top: 12px;
     height: 64px;
   }
@@ -732,7 +731,6 @@
 @media screen and (min-width: 1400px) {
   .order__form {
     display: flex;
-    margin: 0;
     margin-top: 26px;
   }
 }
@@ -746,9 +744,16 @@
   font-size: 18px;
   line-height: 13px;
 }
+@media screen and (min-width: 1400px) {
+  .order__email {
+    width: 385px;
+    flex-grow: 1;
+    text-align: start;
+    padding-left: 15px;
+  }
+}
 .order__email::placeholder {
   color: #2b292d;
-  flex-grow: 1;
 }
 .order__button {
   padding: 0;
