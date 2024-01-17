@@ -1,6 +1,6 @@
 FOUNDATION LAYOUT
 
-[Site link](https://app.netlify.com/sites/resonant-churros-074ad6/overview)
+[Site link](https://resonant-churros-074ad6.netlify.app/)
 
 Description:
 Этот проект включает в себя адаптивную веб-страницу, стилизованную с помощью SASS и организованную по методологии БЭМ.
