@@ -1,9 +1,9 @@
-Project. Foundation layout
+PROJECT. FOUNDATION LAYOUT
 
-[Site link](https://resonant-churros-074ad6.netlify.app/)
+[Site link](https://foundation-layout.netlify.app/)
 
 Description:
-Цей проект включає адаптивну веб-сторінку, стилізовану за допомогою SASS і організовану за методологією БЕМ.
+This project includes a responsive web site, styled using SASS and organized using the BEM methodology.
 
 The tech stack is:
 
@@ -12,16 +12,7 @@ The tech stack is:
 - SASS (SCSS)
 - BEM methodology
 
-Installation:
-
-Клонуйте репозиторій:
-
-```bash
-• git clone https://github.com/Kozlovska-Yulya/Foundation-layout
-
 Author:
 Kozlovska Yuliia
 Gmail: kozlovskayayulya2@gmail.com
 Facebook link: https://www.facebook.com/profile.php?id=100012453605455
-
-```
