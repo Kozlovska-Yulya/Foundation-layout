@@ -1,4 +1,4 @@
-PROJECT. FOUNDATION LAYOUT
+# PROJECT. FOUNDATION LAYOUT
 
 [Site link](https://foundation-layout.netlify.app/)
 
@@ -13,6 +13,7 @@ The tech stack is:
 - BEM methodology
 
 Author:
-Kozlovska Yuliia
-Gmail: kozlovskayayulya2@gmail.com
-Facebook link: https://www.facebook.com/profile.php?id=100012453605455
+
+- Kozlovska Yuliia
+- Gmail: kozlovskayayulya2@gmail.com
+- Facebook link: https://www.facebook.com/profile.php?id=100012453605455
