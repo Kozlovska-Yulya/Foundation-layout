@@ -29,8 +29,7 @@
     font-weight: 700;
     line-height: 56px;
     letter-spacing: -0.5px;
-    margin-top: 24px;
-    margin-bottom: 0;
+    margin: 24px 0px;
   }
 
   &__description {
@@ -40,31 +39,28 @@
     margin-top: 30px;
   }
 
-  &__advantage-header {
+  &__advantage_header {
     margin-top: 42px;
     display: flex;
     line-height: 42px;
   }
 
-  &__advantage-title {
+  &__advantage_title {
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
     color: #3142c6;
-    margin: 0;
-    margin-left: 15px;
+    margin: 0px 15px;
   }
-  &__advantage-description {
+  &__advantage_description {
     font-size: 18px;
     line-height: 26px;
-    margin: 0;
-    margin-top: 8px;
-    margin-bottom: 0;
+    margin: 8px 0px;
     border-bottom: 3px solid #3142c6;
     padding-bottom: 20px;
   }
 
-  &__advantage-item {
+  &__advantage_item {
     border-bottom: 1px solid #2b292d26;
     margin-top: 21px;
     padding-bottom: 22px;
