@@ -39,20 +39,20 @@
     margin-top: 30px;
   }
 
-  &__advantage_header {
-    margin-top: 42px;
+  .advantage__header {
+    margin: 42px 0;
     display: flex;
     line-height: 42px;
   }
 
-  &__advantage_title {
+  .advantage__title {
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
     color: #3142c6;
     margin: 0px 15px;
   }
-  &__advantage_description {
+  .advantage__description {
     font-size: 18px;
     line-height: 26px;
     margin: 8px 0px;
@@ -60,14 +60,14 @@
     padding-bottom: 20px;
   }
 
-  &__advantage_item {
+  .advantage__item {
     border-bottom: 1px solid #2b292d26;
     margin-top: 21px;
     padding-bottom: 22px;
     display: flex;
   }
 
-  &__advantage-item-text {
+  .advantage__item-text {
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
