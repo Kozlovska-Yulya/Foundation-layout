@@ -1,6 +1,6 @@
 # PROJECT. FOUNDATION LAYOUT
 
-[Site link](https://foundation-layout.netlify.app/)
+[Foundation - layout](https://foundation-layout.netlify.app/)
 
 Description:
 This project includes a responsive web site, styled using SASS and organized using the BEM methodology.
