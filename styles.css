@@ -296,6 +296,9 @@ input[type=reset] {
     margin: 0 29px;
   }
 }
+.additional-navigation a {
+  text-decoration: none;
+}
 
 .nav-links {
   width: 265px;
@@ -309,11 +312,13 @@ input[type=reset] {
 }
 .nav-links__list {
   font-size: 18px;
-  color: rgba(43, 41, 45, 0.6);
   line-height: 30px;
   list-style-type: none;
   padding: 0;
   margin: 18px 0;
+}
+.nav-links__list-item a {
+  color: rgba(43, 41, 45, 0.6);
 }
 
 .terms {

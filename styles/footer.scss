@@ -95,6 +95,10 @@
       margin: 0 29px;
     }
   }
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .nav-links {
@@ -110,11 +114,16 @@
 
   &__list {
     font-size: 18px;
-    color: $text-color-light-grey;
     line-height: 30px;
     list-style-type: none;
     padding: 0;
     margin: 18px 0;
+
+    &-item {
+      & a {
+        color: $text-color-light-grey;
+      }
+    }
   }
 }
 
